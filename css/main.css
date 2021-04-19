@@ -1,0 +1,126 @@
+/* Only generic CSS */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.p16 {
+  padding: 16px;
+}
+
+.p8 {
+  padding: 8px;
+}
+
+.mr16 {
+  margin-right: 16px;
+}
+
+.ml16 {
+  margin-left: 16px;
+}
+
+.mt24 {
+  margin-top: 24px;
+}
+
+.mb24 {
+  margin-bottom: 24px;
+}
+
+.mb32 {
+  margin-bottom: 32px;
+}
+
+.mr32 {
+  margin-right: 32px;
+}
+
+.mr24 {
+  margin-right: 24px;
+}
+
+.fill {
+  flex: 1;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.center-aligned {
+  text-align: center;
+}
+
+.right-aligned {
+  text-align: right;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.horizontal-bar {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.loader {
+  border: 2px solid #f3f3f3; /* Light grey */
+  border-top: 2px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.m0 {
+  margin: 0 !important;
+}
+
+.align-items-center {
+  align-items: center;
+}
