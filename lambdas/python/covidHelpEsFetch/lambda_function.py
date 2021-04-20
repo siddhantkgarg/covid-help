@@ -14,6 +14,10 @@ def lambda_handler(event, context):
         print(len(parsed_res))
         return {
             "statusCode": 200,
+            "headers": {
+              "Access-Control-Allow-Origin" : "*", # Required for CORS support to work
+              "Access-Control-Allow-Credentials" : True # Required for cookies, authorization headers with HTTPS 
+            },
             "body": json.dumps(parsed_res)
         }
     except Exception as e:

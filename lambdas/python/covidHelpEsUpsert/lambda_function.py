@@ -16,11 +16,19 @@ def lambda_handler(event, context):
                 res = es.update(index=index, id=event['body']['data']['id'], body={'doc': doc})
                 return {
                     "statusCode": 200,
+                    "headers": {
+                        "Access-Control-Allow-Origin" : "*", # Required for CORS support to work
+                        "Access-Control-Allow-Credentials" : True # Required for cookies, authorization headers with HTTPS 
+                    },
                     "body": json.dumps({"status": res['result']})
                 }
             else:
                 return {
-                    "statusCode": 400,
+                    "statusCode": 401,
+                    "headers": {
+                        "Access-Control-Allow-Origin" : "*", # Required for CORS support to work
+                        "Access-Control-Allow-Credentials" : True # Required for cookies, authorization headers with HTTPS 
+                    },
                     "body": json.dumps({"status": "Authorization failed"})
                 }
         else:
@@ -28,6 +36,10 @@ def lambda_handler(event, context):
             res = es.index(index=index, body=doc)
             return {
                 "statusCode": 200,
+                "headers": {
+                    "Access-Control-Allow-Origin" : "*", # Required for CORS support to work
+                    "Access-Control-Allow-Credentials" : True # Required for cookies, authorization headers with HTTPS 
+                },
                 "body": json.dumps({"status": res['result']})
             }
     except Exception as e:
