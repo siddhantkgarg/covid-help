@@ -4,15 +4,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/favicon.ico" />
-
     <!-- Primary Meta Tags -->
     <title>Covid help</title>
     <meta name="title" content="CovHelp" />
     <meta
       name="description"
       content="CovHelp- get details about hospitals, medicines, oxygen cylinders & plasma donors"
-    />
-
+      />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://covid-help.github.io/" />
@@ -20,12 +18,11 @@
     <meta
       property="og:description"
       content="CovHelp- get details about hospitals, medicines, oxygen cylinders & plasma donors"
-    />
+      />
     <meta
       property="og:image"
       content="https://covid-help.github.io/images/logo.png"
-    />
-
+      />
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://covid-help.github.io/" />
@@ -33,11 +30,11 @@
     <meta
       property="twitter:description"
       content="CovHelp- get details about hospitals, medicines, oxygen cylinders & plasma donors"
-    />
+      />
     <meta
       property="twitter:image"
       content="https://covid-help.github.io/images/logo.png"
-    />
+      />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" />
@@ -76,9 +73,77 @@
       </ul>
       <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-hospital-beds" role="tabpanel" aria-labelledby="pills-hospital-beds-tab">
-          No data for Hospital Beds, Click on Oxygen tab
+          <table id="hospitalBedsTable" class="ui celled table responsive nowrap unstackable" style="width:100%">
+            <thead>
+              <tr>
+                <th>Hospital Name</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Beds Count</th>
+                <th>ICU Beds Count</th>
+                <th>Link</th>
+                <th>Comments</th>
+                <!-- <th>Last Updated</th> -->
+                <th>Created At</th>
+                <th>Verified</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>Hospital Name</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Beds Count</th>
+                <th>ICU Beds Count</th>
+                <th>Link</th>
+                <th>Comments</th>
+                <!-- <th>Last Updated</th> -->
+                <th>Created At</th>
+                <th>Verified</th>
+              </tr>
+            </tfoot>
+          </table>
         </div>
-        <div class="tab-pane fade" id="pills-medicines" role="tabpanel" aria-labelledby="pills-medicines-tab">No data for Med, Click on Oxygen tab</div>
+        <div class="tab-pane fade" id="pills-medicines" role="tabpanel" aria-labelledby="pills-medicines-tab">
+          <table id="medicinesTable" class="ui celled table responsive nowrap unstackable" style="width:100%">
+            <thead>
+              <tr>
+                <th>Person Name</th>
+                <th>Contact</th>
+                <th>Medicine Name</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Link</th>
+                <th>Comments</th>
+                <!-- <th>Last Updated</th> -->
+                <th>Created At</th>
+                <th>Verified</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>Person Name</th>
+                <th>Contact</th>
+                <th>Medicine Name</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Link</th>
+                <th>Comments</th>
+                <!-- <th>Last Updated</th> -->
+                <th>Created At</th>
+                <th>Verified</th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
         <div class="tab-pane fade" id="pills-oxygen" role="tabpanel" aria-labelledby="pills-oxygen-tab">
           <table id="oxygenTable" class="ui celled table responsive nowrap unstackable" style="width:100%">
             <thead>
