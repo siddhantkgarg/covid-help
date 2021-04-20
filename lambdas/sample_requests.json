@@ -1,0 +1,30 @@
+// Sample requests for hospital-beds data. Similar structure is followed for other facts as well.
+
+{
+	'fetch_request_data': {
+		'index': 'hospital_beds'
+	},
+  'insert_request_data': {
+    'index': 'hospital_beds',
+    'data': {
+      'hospital_name': 'test',
+      'state': 'karnataka',
+      'city': 'bangalore',
+      'beds_count': '1',
+      'icu_beds_count': '1',
+      'link': 'test',
+      'comments': 'test',
+      'last_updated': '2021-04-20 12:00:00',
+      'created_at': '2021-04-20 12:00:00'
+    }
+  },
+  'update_request_data': {
+    'index': 'hospital_beds',
+    'token': 'replace_dummy_token',
+    'data': {
+      'id': 'test',
+      'verified': true,
+      'last_updated': '2021-04-20 12:00:00',
+    }
+  }
+}
