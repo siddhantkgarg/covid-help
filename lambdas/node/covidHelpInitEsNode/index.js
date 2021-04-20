@@ -30,39 +30,35 @@ exports.handler = async (event) => {
     
     promises.push(hospitalBedsIndexPromise, medicinesIndexPromise, oxygenIndexPromise);
     
-    Promise.all(promises)
-      .then(async ([hospitalBedsIndex, medicinesIndex, oxygenIndex]) => {
-        if (hospitalBedsIndex.body) {
-          console.log(`${ES_INDEX.HOSPITAL_BEDS} exists`);
-        } else {
-          await es.indices.create({
-            index: ES_INDEX.HOSPITAL_BEDS
-          });
-          console.log(`${ES_INDEX.HOSPITAL_BEDS} created`);
-        }
-        
-        if (medicinesIndex.body) {
-          console.log(`${ES_INDEX.MEDICINES} exists`);
-        } else {
-          await es.indices.create({
-            index: ES_INDEX.MEDICINES
-          });
-          console.log(`${ES_INDEX.MEDICINES} created`);
-        }
-        
-        if (oxygenIndex.body) {
-          console.log(`${ES_INDEX.OXYGEN} exists`);
-        } else {
-          await es.indices.create({
-            index: ES_INDEX.OXYGEN
-          });
-          console.log(`${ES_INDEX.OXYGEN} created`);
-        }
-      })
-      .catch (error => {
-        console.log('Error in calling Promise.all');
-        console.error(error);
+    const [hospitalBedsIndex, medicinesIndex, oxygenIndex] = await Promise.all(promises);
+    
+    
+    if (hospitalBedsIndex) {
+      console.log(`${ES_INDEX.HOSPITAL_BEDS} exists`);
+    } else {
+      await es.indices.create({
+        index: ES_INDEX.HOSPITAL_BEDS
       });
+      console.log(`${ES_INDEX.HOSPITAL_BEDS} created`);
+    }
+    
+    if (medicinesIndex) {
+      console.log(`${ES_INDEX.MEDICINES} exists`);
+    } else {
+      await es.indices.create({
+        index: ES_INDEX.MEDICINES
+      });
+      console.log(`${ES_INDEX.MEDICINES} created`);
+    }
+    
+    if (oxygenIndex) {
+      console.log(`${ES_INDEX.OXYGEN} exists`);
+    } else {
+      await es.indices.create({
+        index: ES_INDEX.OXYGEN
+      });
+      console.log(`${ES_INDEX.OXYGEN} created`);
+    }
   } catch (error) {
     console.error(error);
   }
