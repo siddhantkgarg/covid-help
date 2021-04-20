@@ -3,15 +3,17 @@
       "index":"hospital_beds"
    },
    "insert_request_data":{
-      "index":"hospital_beds",
+      "index":"oxygen",
       "data":{
-         "hospital_name":"test",
-         "state":"karnataka",
-         "city":"bangalore",
-         "beds_count":"1",
-         "icu_beds_count":"1",
-         "link":"test",
-         "comments":"test",
+         "vendor_name":"",
+         "person_name":"",
+         "contact": "9311188123",
+         "state":"Haryana",
+         "city":"Gurgaon",
+         "quantity": "",
+         "price": "",
+         "link":"",
+         "comments":"Sector 37, Plot no 597",
          "last_updated":"2021-04-20 12:00:00",
          "created_at":"2021-04-20 12:00:00"
       }
