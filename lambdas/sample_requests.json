@@ -1,5 +1,3 @@
-// Sample requests for hospital-beds data. Similar structure is followed for other facts as well.
-
 {
 	'fetch_request_data': {
 		'index': 'hospital_beds'
