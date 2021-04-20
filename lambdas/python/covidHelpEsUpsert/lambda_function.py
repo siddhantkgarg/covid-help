@@ -9,6 +9,7 @@ def lambda_handler(event, context):
     index = event["queryStringParameters"]["index"]
     print(index)
     try:
+        event['body'] = json.loads(event['body'])
         doc = event['body']['data']
         if 'id' in event['body']['data'] and event['body']['data']['id']:
             if event['body']['token'] == 'replace_dummy_token':
