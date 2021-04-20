@@ -7,19 +7,19 @@
 
     <!-- Primary Meta Tags -->
     <title>Covid help</title>
-    <meta name="title" content="Covid help" />
+    <meta name="title" content="CovHelp" />
     <meta
       name="description"
-      content="Covid help- get details about hospitals, medicines, oxygen cylinders & plasma donors"
+      content="CovHelp- get details about hospitals, medicines, oxygen cylinders & plasma donors"
     />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://covid-help.github.io/" />
-    <meta property="og:title" content="Covid help" />
+    <meta property="og:title" content="CovHelp" />
     <meta
       property="og:description"
-      content="Covid help- get details about hospitals, medicines, oxygen cylinders & plasma donors"
+      content="CovHelp- get details about hospitals, medicines, oxygen cylinders & plasma donors"
     />
     <meta
       property="og:image"
@@ -29,33 +29,40 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://covid-help.github.io/" />
-    <meta property="twitter:title" content="Covid help" />
+    <meta property="twitter:title" content="CovHelp" />
     <meta
       property="twitter:description"
-      content="Covid help- get details about hospitals, medicines, oxygen cylinders & plasma donors"
+      content="CovHelp- get details about hospitals, medicines, oxygen cylinders & plasma donors"
     />
     <meta
       property="twitter:image"
       content="https://covid-help.github.io/images/logo.png"
     />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/dataTables.semanticui.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.7/css/responsive.bootstrap4.min.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.24/js/dataTables.semanticui.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.7/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.7/js/responsive.bootstrap4.min.js"></script>
     <script src="js/main.js"></script>
   </head>
   <body>
     <header class="p16">
-      <h1 class="ui header">Covid Help</h1>
-      <p>
-        Get details about hospitals, medicines, oxygen cylinders & plasma donors 
+      <nav class="navbar navbar-light" style="background-color: #753535;">
+        <h2 class="ui header" style="color:white; font-family:lato"><i class="material-icons">groups</i> covHelp</h2>
+      </nav>
+      <hr/>
+      <p style="font-weight:700">
+        Get details about hospitals, medicines, oxygen cylinders & plasma donors
       </p>
     </header>
     <section class="p16">
-      <table id="dataTable" class="ui celled table" style="width:100%">
+      <table id="dataTable" class="ui celled table responsive nowrap unstackable" style="width:100%">
         <thead>
           <tr>
             <th>Name</th>
