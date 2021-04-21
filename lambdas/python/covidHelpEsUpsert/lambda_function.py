@@ -13,12 +13,15 @@ def lambda_handler(event, context):
         doc = event['body']['data']
         if 'id' in event['body']['data'] and event['body']['data']['id']:
             if event['body']['token'] == 'replace_dummy_token':
-                res = es.update(index=index, id=event['body']['data']['id'], body={'doc': doc})
+                if event['httpMethod'] == 'DELETE':
+                    res = es.delete(index=index, id=event['body']['data']['id'])
+                else:
+                    res = es.update(index=index, id=event['body']['data']['id'], body={'doc': doc})
                 return {
                     "statusCode": 200,
                     "headers": {
-                        "Access-Control-Allow-Origin" : "*", # Required for CORS support to work
-                        "Access-Control-Allow-Credentials" : True # Required for cookies, authorization headers with HTTPS 
+                      "Access-Control-Allow-Origin" : "*", # Required for CORS support to work
+                      "Access-Control-Allow-Credentials" : True # Required for cookies, authorization headers with HTTPS 
                     },
                     "body": json.dumps({"status": res['result']})
                 }
@@ -26,8 +29,8 @@ def lambda_handler(event, context):
                 return {
                     "statusCode": 401,
                     "headers": {
-                        "Access-Control-Allow-Origin" : "*", # Required for CORS support to work
-                        "Access-Control-Allow-Credentials" : True # Required for cookies, authorization headers with HTTPS 
+                      "Access-Control-Allow-Origin" : "*", # Required for CORS support to work
+                      "Access-Control-Allow-Credentials" : True # Required for cookies, authorization headers with HTTPS 
                     },
                     "body": json.dumps({"status": "Authorization failed"})
                 }
@@ -37,8 +40,8 @@ def lambda_handler(event, context):
             return {
                 "statusCode": 200,
                 "headers": {
-                    "Access-Control-Allow-Origin" : "*", # Required for CORS support to work
-                    "Access-Control-Allow-Credentials" : True # Required for cookies, authorization headers with HTTPS 
+                  "Access-Control-Allow-Origin" : "*", # Required for CORS support to work
+                  "Access-Control-Allow-Credentials" : True # Required for cookies, authorization headers with HTTPS 
                 },
                 "body": json.dumps({"status": res['result']})
             }
