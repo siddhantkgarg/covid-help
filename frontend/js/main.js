@@ -1,5 +1,6 @@
 // https://datatables.net/manual/ajax
 $(document).ready(function() {
+  $.fn.dataTable.ext.errMode = 'none';
   try {
     $('#hospitalBedsTable').DataTable({
       ajax: {
@@ -164,28 +165,64 @@ $(document).ready(function() {
 
   //forms submit handler
   function apiRequest(index, data){
+    console.log('daa ', data)
+    data = JSON.stringify(data)
     $.ajax({
       url: `https://4tomrkuta3.execute-api.ap-south-1.amazonaws.com/dev?index=${index}`,
       method: "POST",
+      dataType: "json",
       data: data,
       headers: {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*"
       },
       success: function(data) {
+        console.log(index);
+        if(index === "hospital_beds"){
+          console.log('yay')
+          $("#bed-alert").append(`<div class="alert alert-success" role="alert">
+        hospital beds data has been successfully submitted!
+        </div>`
+        )
+        }
+        else if(index === "oxygen"){
+          $("#oxygen-alert").append(`<div class="alert alert-success" role="alert">
+        oxygen data has been successfully submitted!
+        </div>`
+        )
+        }
+        else{
+          $("#med-alert").append(`<div class="alert alert-success" role="alert">
+        medicine data has been successfully submitted!
+        </div>`
+        )
+        }
+        
+        
+      },
+      error: function(data){
         console.log(data);
+        $(".alert").append(`<div class="alert alert-danger" role="alert">
+        Something went wrong!
+        </div>`
+        )
       }
     });
   };
 
   function handleEvent(e, form_name, index){
     var data = form_name.serializeArray();
+    console.log(data)
+    var jsonData={}
+    $.each(data, function(i, field){
+      jsonData[field.name] = field.value
+    })
     var date = new Date();
-    data.push(
-      {name:'last_updated', value: date},
-      {name:'created_at', value: date}
-    )
-    apiRequest(index, data)
+    jsonData["last_updated"] = date.toISOString();
+    jsonData["created_at"] = date.toISOString();
+    var formatedData = {"data":jsonData}
+    console.log(formatedData)
+  
+    apiRequest(index, formatedData)
     e.preventDefault();
   }
 
@@ -203,6 +240,51 @@ $(document).ready(function() {
     handleEvent(e, $medicines_form, "medicines")
   })
 
+
+  //states population
+  var states = {
+    "AN":"Andaman and Nicobar Islands",
+    "AP":"Andhra Pradesh",
+    "AR":"Arunachal Pradesh",
+    "AS":"Assam",
+    "BR":"Bihar",
+    "CG":"Chandigarh",
+    "CH":"Chhattisgarh",
+    "DN":"Dadra and Nagar Haveli",
+    "DD":"Daman and Diu",
+    "DL":"Delhi",
+    "GA":"Goa",
+    "GJ":"Gujarat",
+    "HR":"Haryana",
+    "HP":"Himachal Pradesh",
+    "JK":"Jammu and Kashmir",
+    "JH":"Jharkhand",
+    "KA":"Karnataka",
+    "KL":"Kerala",
+    "LA":"Ladakh",
+    "LD":"Lakshadweep",
+    "MP":"Madhya Pradesh",
+    "MH":"Maharashtra",
+    "MN":"Manipur",
+    "ML":"Meghalaya",
+    "MZ":"Mizoram",
+    "NL":"Nagaland",
+    "OR":"Odisha",
+    "PY":"Puducherry",
+    "PB":"Punjab",
+    "RJ":"Rajasthan",
+    "SK":"Sikkim",
+    "TN":"Tamil Nadu",
+    "TS":"Telangana",
+    "TR":"Tripura",
+    "UP":"Uttar Pradesh",
+    "UK":"Uttarakhand",
+    "WB":"West Bengal"
+}
+  $.each(states, function(k,v){
+    $("#states").append(`<option value=${v}></option>`)
+  })
+  
 });
 
 $('#info-type').on('change',function(){

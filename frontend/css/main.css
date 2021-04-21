@@ -124,3 +124,7 @@ body {
 .align-items-center {
   align-items: center;
 }
+
+.tab-content {
+  padding-bottom: 100px;
+}

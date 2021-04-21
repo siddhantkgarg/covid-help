@@ -55,9 +55,9 @@
           <h2 class="ui header" style="color:white; font-family:lato"><i class="material-icons">groups</i> covHelp</h2>
         </nav>
         <hr/>
-        <p style="font-weight:700">
-          Get details about hospitals, medicines, oxygen cylinders & plasma donors 
-        </p>
+        <!-- <p style="font-weight:700">
+          
+        </p> -->
     </header>
     <div class="container">
       <div class="row">
@@ -91,7 +91,10 @@
                 </div>
                 <div class="form-group">
                   <label for="state">State</label>
-                  <input autocomplete="on" type="text" name="state" class="form-control" id="state" aria-describedby="state">
+                  <input autocomplete="on" list="states" type="text" name="state" class="form-control" id="state" aria-describedby="state">
+                  <datalist id="states">
+
+                  </datalist>
                 </div>
                 <div class="form-group">
                   <label for="city">City</label>
@@ -105,7 +108,7 @@
                   <label for="comments">Comments</label>
                   <textarea name="comments" class="form-control" rows="3" id="comments"></textarea>
                 </div>
-                
+                <div id="bed-alert"></div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
             </div>
@@ -125,7 +128,10 @@
                 </div>
                 <div class="form-group">
                   <label for="state">State</label>
-                  <input autocomplete="on" type="text" class="form-control" id="state" aria-describedby="state">
+                  <input autocomplete="on" list="states" type="text" class="form-control" id="state" aria-describedby="state">
+                  <datalist id="states">
+
+                  </datalist>
                 </div>
                 <div class="form-group">
                   <label for="city">City</label>
@@ -141,12 +147,13 @@
                 </div>
                 <div class="form-group">
                   <label for="link">Link</label>
-                  <input type="url" class="form-control" id="link" aria-describedby="link">
+                  <input type="text" class="form-control" id="link" aria-describedby="link">
                 </div>
                 <div class="form-group">
                   <label for="comments">Comments</label>
                   <textarea class="form-control" rows="3" id="comments"></textarea>
                 </div>
+                <div id="oxygen-alert"></div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
             </div>
@@ -166,7 +173,10 @@
                 </div>
                 <div class="form-group">
                   <label for="state">State</label>
-                  <input autocomplete="on" type="text" class="form-control" id="state" aria-describedby="state">
+                  <input autocomplete="on" list="states" type="text" class="form-control" id="state" aria-describedby="state">
+                  <datalist id="states">
+
+                  </datalist>
                 </div>
                 <div class="form-group">
                   <label for="city">City</label>
@@ -182,12 +192,13 @@
                 </div>
                 <div class="form-group">
                   <label for="link">Link</label>
-                  <input type="url" class="form-control" id="link" aria-describedby="link">
+                  <input type="text" class="form-control" id="link" aria-describedby="link">
                 </div>
                 <div class="form-group">
                   <label for="comments">Comments</label>
                   <textarea class="form-control" rows="3" id="comments"></textarea>
                 </div>
+                <div id="med-alert"></div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
             </div>
