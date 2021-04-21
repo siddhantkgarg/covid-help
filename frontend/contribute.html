@@ -58,201 +58,142 @@
         <p style="font-weight:700">
           Get details about hospitals, medicines, oxygen cylinders & plasma donors 
         </p>
-      </header>
-      <div class="container">
-
-        <form class="well form-horizontal" action=" " method="post"  id="contact_form">
-    <fieldset>
-    
-    <!-- Form Name -->
-    <legend><center><h2><b>Registration Form</b></h2></center></legend><br>
-    
-    <!-- Text input-->
-
-    <div class="form-group" id="info-type"> 
-        <label class="col-md-4 control-label">Information Type</label>
-          <div class="col-md-4 selectContainer">
-          <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-          <select name="department" class="form-control selectpicker"">
-            <option value="">Select information type</option>
-            <option value="hospital_beds">Hospital Beds</option>
-            <option value="oxygen">Oxygen</option>
-            <option value="medicines">Medicines</option>
-          </select>
-        </div>
-      </div>
-      </div>
-    
-    <div class="form-group hospital-form">
-      <label class="col-md-4 control-label">Hospital Name</label>  
-      <div class="col-md-4 inputGroupContainer">
-      <div class="input-group">
-      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-      <input  name="hospital_name" placeholder="Hospital Name" class="form-control"  type="text">
-        </div>
-      </div>
-    </div>
-    
-    <div class="form-group hospital-form">
-        <label class="col-md-4 control-label">State</label>  
-        <div class="col-md-4 inputGroupContainer">
-        <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-        <input  name="state" placeholder="State" class="form-control"  type="text">
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-hospital-beds" role="tab" aria-controls="pills-hospital-beds" aria-selected="true">Hospital Beds</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-oxygen" role="tab" aria-controls="pills-oxygen" aria-selected="false">Oxygen</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-medicines" role="tab" aria-controls="pills-medicines" aria-selected="false">Medicines</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-hospital-beds" role="tabpanel" aria-labelledby="pills-hospital-beds-tab">
+              <!--Hospital beds submit form-->
+              <form class="col-md-4" id="hospitalBeds" action="">
+                <div class="form-group">
+                  <label for="hospital_name">Hospital Name</label>
+                  <input type="text" name="hospital_name" class="form-control" id="hospital_name" aria-describedby="hospital_name">
+                </div>
+                <div class="form-group">
+                  <label for="beds_count">Beds Count</label>
+                  <input type="number" name="beds_count" class="form-control" id="beds_count">
+                </div>
+                <div class="form-group">
+                  <label for="icu_beds_count">ICU Beds Count</label>
+                  <input type="number" name="icu_beds_count" class="form-control" id="icu_beds_count">
+                </div>
+                <div class="form-group">
+                  <label for="state">State</label>
+                  <input type="text" name="state" class="form-control" id="state" aria-describedby="state">
+                </div>
+                <div class="form-group">
+                  <label for="city">City</label>
+                  <input type="text" name="city" class="form-control" id="city" aria-describedby="city">
+                </div>
+                <div class="form-group">
+                  <label for="link">Link</label>
+                  <input type="text" name="link" class="form-control" id="link" aria-describedby="link">
+                </div>
+                <div class="form-group">
+                  <label for="comments">Comments</label>
+                  <textarea name="comments" class="form-control" rows="3" id="comments"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="tab-pane fade" id="pills-oxygen" role="tabpanel" aria-labelledby="pills-oxygen-tab">
+              <form class="col-md-4" id="oxygen">
+                <div class="form-group">
+                  <label for="vendor_name">Vendor Name</label>
+                  <input type="text" class="form-control" id="vendor_name" aria-describedby="vendor_name">
+                </div>
+                <div class="form-group">
+                  <label for="person_name">Person Name</label>
+                  <input type="text" class="form-control" id="person_name" aria-describedby="person_name">
+                </div>
+                <div class="form-group">
+                  <label for="contact">Contact Number</label>
+                  <input type="text" class="form-control" id="contact" aria-describedby="contact">
+                </div>
+                <div class="form-group">
+                  <label for="state">State</label>
+                  <input type="text" class="form-control" id="state" aria-describedby="state">
+                </div>
+                <div class="form-group">
+                  <label for="city">City</label>
+                  <input type="text" class="form-control" id="city" aria-describedby="city">
+                </div>
+                <div class="form-group">
+                  <label for="quantity">Quantity</label>
+                  <input type="number" class="form-control" id="quantity">
+                </div>
+                <div class="form-group">
+                  <label for="price">Price</label>
+                  <input type="number" class="form-control" id="price">
+                </div>
+                <div class="form-group">
+                  <label for="link">Link</label>
+                  <input type="url" class="form-control" id="link" aria-describedby="link">
+                </div>
+                <div class="form-group">
+                  <label for="comments">Comments</label>
+                  <textarea class="form-control" rows="3" id="comments"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="tab-pane fade" id="pills-medicines" role="tabpanel" aria-labelledby="pills-medicines-tab">
+              <form class="col-md-4" id="medicines">
+                <div class="form-group">
+                  <label for="person_name">Person Name</label>
+                  <input type="text" class="form-control" id="person_name" aria-describedby="person_name">
+                </div>
+                <div class="form-group">
+                  <label for="contact">Contact Number</label>
+                  <input type="text" class="form-control" id="contact" aria-describedby="contact">
+                </div>
+                <div class="form-group">
+                  <label for="person_name">Medicine Name</label>
+                  <input type="text" class="form-control" id="medicine_name" aria-describedby="medicine_name">
+                </div>
+                <div class="form-group">
+                  <label for="state">State</label>
+                  <input type="text" class="form-control" id="state" aria-describedby="state">
+                </div>
+                <div class="form-group">
+                  <label for="city">City</label>
+                  <input type="text" class="form-control" id="city" aria-describedby="city">
+                </div>
+                <div class="form-group">
+                  <label for="quantity">Quantity</label>
+                  <input type="number" class="form-control" id="quantity">
+                </div>
+                <div class="form-group">
+                  <label for="price">Price</label>
+                  <input type="number" class="form-control" id="price">
+                </div>
+                <div class="form-group">
+                  <label for="link">Link</label>
+                  <input type="url" class="form-control" id="link" aria-describedby="link">
+                </div>
+                <div class="form-group">
+                  <label for="comments">Comments</label>
+                  <textarea class="form-control" rows="3" id="comments"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-      
-      <div class="form-group hospital-form">
-        <label class="col-md-4 control-label">City</label>  
-        <div class="col-md-4 inputGroupContainer">
-        <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-        <input  name="city" placeholder="City" class="form-control"  type="text">
-          </div>
-        </div>
-      </div>
-
-      <div class="form-group hospital-form">
-        <label class="col-md-4 control-label">Bed Counts</label>  
-        <div class="col-md-4 inputGroupContainer">
-        <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-        <input  name="bed_counts" placeholder="Bed Counts" class="form-control"  type="text">
-          </div>
-        </div>
-      </div>
-    <div class="form-group hospital-form">
-        <label class="col-md-4 control-label">ICU Bed Counts</label>  
-        <div class="col-md-4 inputGroupContainer">
-        <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-        <input  name="icu_bed_counts" placeholder="ICU Bed Counts" class="form-control"  type="text">
-          </div>
-        </div>
-      </div>
-      <div class="form-group hospital-form">
-        <label class="col-md-4 control-label">Link</label>  
-        <div class="col-md-4 inputGroupContainer">
-        <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-        <input  name="link" placeholder="Link" class="form-control"  type="text">
-          </div>
-        </div>
-      </div>
-      
-
-
-
-    <!-- Text input-->
-    
-    <div class="form-group">
-      <label class="col-md-4 control-label" >Last Name</label> 
-        <div class="col-md-4 inputGroupContainer">
-        <div class="input-group">
-      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-      <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
-        </div>
-      </div>
-    </div>
-    
-      <div class="form-group"> 
-      <label class="col-md-4 control-label">Department / Office</label>
-        <div class="col-md-4 selectContainer">
-        <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-        <select name="department" class="form-control selectpicker">
-          <option value="">Select your Department/Office</option>
-          <option>Department of Engineering</option>
-          <option>Department of Agriculture</option>
-          <option >Accounting Office</option>
-          <option >Tresurer's Office</option>
-          <option >MPDC</option>
-          <option >MCTC</option>
-          <option >MCR</option>
-          <option >Mayor's Office</option>
-          <option >Tourism Office</option>
-        </select>
-      </div>
-    </div>
-    </div>
-      
-    <!-- Text input-->
-    
-    <div class="form-group">
-      <label class="col-md-4 control-label">Username</label>  
-      <div class="col-md-4 inputGroupContainer">
-      <div class="input-group">
-      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-      <input  name="user_name" placeholder="Username" class="form-control"  type="text">
-        </div>
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    
-    <div class="form-group">
-      <label class="col-md-4 control-label" >Password</label> 
-        <div class="col-md-4 inputGroupContainer">
-        <div class="input-group">
-      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-      <input name="user_password" placeholder="Password" class="form-control"  type="password">
-        </div>
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    
-    <div class="form-group">
-      <label class="col-md-4 control-label" >Confirm Password</label> 
-        <div class="col-md-4 inputGroupContainer">
-        <div class="input-group">
-      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-      <input name="confirm_password" placeholder="Confirm Password" class="form-control"  type="password">
-        </div>
-      </div>
-    </div>
-    
-    <!-- Text input-->
-           <div class="form-group">
-      <label class="col-md-4 control-label">E-Mail</label>  
-        <div class="col-md-4 inputGroupContainer">
-        <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-      <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
-        </div>
-      </div>
-    </div>
-    
-    
-    <!-- Text input-->
-           
-    <div class="form-group">
-      <label class="col-md-4 control-label">Contact No.</label>  
-        <div class="col-md-4 inputGroupContainer">
-        <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-      <input name="contact_no" placeholder="(639)" class="form-control" type="text">
-        </div>
-      </div>
-    </div>
-    
-    <!-- Select Basic -->
-    
-    <!-- Success message -->
-    <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Success!.</div>
-    
-    <!-- Button -->
-    <div class="form-group">
-      <label class="col-md-4 control-label"></label>
-      <div class="col-md-4"><br>
-        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-warning" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
-      </div>
-    </div>
-    
-    </fieldset>
-    </form>
     </div>
         </div><!-- /.container -->
       </body>
