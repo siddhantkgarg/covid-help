@@ -216,8 +216,8 @@ $(document).ready(function() {
       jsonData[field.name] = field.value
     })
     var date = new Date();
-    jsonData["last_updated"] = "2021-04-20 12:00:00";
-    jsonData["created_at"] = "2021-04-20 12:00:00";
+    jsonData["last_updated"] = date;
+    jsonData["created_at"] = date;
     var formatedData = {"data":jsonData}
     console.log(formatedData)
   
