@@ -4,7 +4,8 @@ $(document).ready(function() {
     $('#hospitalBedsTable').DataTable({
       ajax: {
         url: 'https://4tomrkuta3.execute-api.ap-south-1.amazonaws.com/dev/?index=hospital_beds',
-        dataSrc: ''
+        dataSrc: '',
+        cache: true // to prevent appending undersore in query param
       },
       columns: [
         {
@@ -53,7 +54,8 @@ $(document).ready(function() {
     $('#medicinesTable').DataTable({
       ajax: {
         url: 'https://4tomrkuta3.execute-api.ap-south-1.amazonaws.com/dev/?index=medicines',
-        dataSrc: ''
+        dataSrc: '',
+        cache: true // to prevent appending undersore in query param
       },
       columns: [
         {
@@ -108,7 +110,8 @@ $(document).ready(function() {
     $('#oxygenTable').DataTable({
       ajax: {
         url: 'https://4tomrkuta3.execute-api.ap-south-1.amazonaws.com/dev/?index=oxygen',
-        dataSrc: ''
+        dataSrc: '',
+        cache: true // to prevent appending undersore in query param
       },
       columns: [
         {
