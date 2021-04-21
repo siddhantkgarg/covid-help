@@ -3,7 +3,8 @@ import json
 from datetime import datetime
 from elasticsearch import Elasticsearch
 
-es = Elasticsearch('https://vpc-covid-help-ggo4aqwgkblo7uh2oxp4izirjy.ap-south-1.es.amazonaws.com/')
+#es = Elasticsearch('https://vpc-covid-help-ggo4aqwgkblo7uh2oxp4izirjy.ap-south-1.es.amazonaws.com/')
+es = Elasticsearch('https://vpc-covid-help2-su24eiu7nbh72svrz4eh52od2i.ap-south-1.es.amazonaws.com/')
 
 def lambda_handler(event, context):
     index = event["queryStringParameters"]["index"]
