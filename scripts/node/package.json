@@ -1,0 +1,11 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Nodejs scripts to backfill data in ES",
+  "main": "index.js",
+  "author": "Varun Kumar <varunon9@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
