@@ -217,8 +217,8 @@ $(document).ready(function() {
       jsonData[field.name] = field.value
     })
     var date = new Date();
-    jsonData["last_updated"] = date;
-    jsonData["created_at"] = date;
+    jsonData["last_updated"] = date.toISOString();
+    jsonData["created_at"] = date.toISOString();
     var formatedData = {"data":jsonData}
     console.log(formatedData)
   
