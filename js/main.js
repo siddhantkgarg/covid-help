@@ -159,3 +159,13 @@ $(document).ready(function() {
     console.error(error);
   }
 } );
+
+$('#info-type').on('change',function(){
+  console.log($(this).val());
+  // if( $(this).val()==="other"){
+  // $("#otherType").show()
+  // }
+  // else{
+  // $("#otherType").hide()
+  // }
+});
