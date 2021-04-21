@@ -8,8 +8,16 @@ es = Elasticsearch('https://vpc-covid-help-ggo4aqwgkblo7uh2oxp4izirjy.ap-south-1
 def lambda_handler(event, context):
     index = event["queryStringParameters"]["index"]
     print(index)
+    filter_list = []
+    for k in event["queryStringParameters"].keys():
+        if k != "index":
+            filter_list.append({ "match": { k: event["queryStringParameters"][k] } })
+    print(filter_list)
     try:
-        res = es.search(index=index, body={"query": {"match_all": {}}})
+        if len(filter_list) == 0:
+            res = es.search(index=index, body={"query": {"match_all": {}}})
+        else:
+            res = es.search(index=index, body={"query": {"bool": { "must": filter_list }}})
         parsed_res = res.get("hits", {}).get("hits", [])
         print(len(parsed_res))
         return {
