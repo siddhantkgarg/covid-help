@@ -1,5 +1,6 @@
 // https://datatables.net/manual/ajax
 $(document).ready(function() {
+  $.fn.dataTable.ext.errMode = 'none';
   try {
     $('#hospitalBedsTable').DataTable({
       ajax: {
