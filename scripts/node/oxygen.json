@@ -1,1442 +1,1442 @@
 [
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Shilpa Gas Agency",
-    "Number": 8238892149,
-    "Availability": "",
-    "Item": "Oxygen Cylinder",
-    "Comments": ""
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Shilpa Gas Agency",
+    "contact": 8238892149,
+    "quantity": "",
+    "price": "",
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Oxygen Cosmic at Navrangpura",
-    "Number": "9824411146 \n '917926402112",
-    "Availability": "",
-    "Item": "Oxygen Cylinder",
-    "Comments": ""
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Oxygen Cosmic at Navrangpura",
+    "contact": "9824411146 \n '917926402112",
+    "quantity": "",
+    "price": "",
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Takhat thakor",
-    "Number": 7940073135,
-    "Availability": "",
-    "Item": "Oxygen Cylinder",
-    "Comments": ""
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Takhat thakor",
+    "contact": 7940073135,
+    "quantity": "",
+    "price": "",
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Vishwas Helpline",
-    "Number": "9913294767, 7600774393",
-    "Availability": "",
-    "Item": "Oxygen Cylinder",
-    "Comments": ""
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Vishwas Helpline",
+    "contact": "9913294767, 7600774393",
+    "quantity": "",
+    "price": "",
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Kalpna Foundation",
-    "Number": "9825006834, 9099939236, 9825006834",
-    "Availability": "",
-    "Item": "Oxygen Cylinder",
-    "Comments": ""
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Kalpna Foundation",
+    "contact": "9825006834, 9099939236, 9825006834",
+    "quantity": "",
+    "price": "",
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Arihant medical",
-    "Number": 9825203234,
-    "Availability": "",
-    "Item": "Oxygen Cylinder",
-    "Comments": ""
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Arihant medical",
+    "contact": 9825203234,
+    "quantity": "",
+    "price": "",
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Chamunda surgical",
-    "Number": 9099758363,
-    "Availability": "",
-    "Item": "Oxygen Cylinder",
-    "Comments": ""
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Chamunda surgical",
+    "contact": 9099758363,
+    "quantity": "",
+    "price": "",
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Vardiani Tushar Patel oxygen-",
-    "Number": 9825333200,
-    "Availability": "",
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Vardiani Tushar Patel oxygen-",
+    "contact": 9825333200,
+    "quantity": "",
     "Item": "Oxygen bottels",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Utpal shah-",
-    "Number": "9879141117 9898006737",
-    "Availability": "",
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Utpal shah-",
+    "contact": "9879141117 9898006737",
+    "quantity": "",
     "Item": "Oxygen bottels",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Dipen shah-",
-    "Number": 9825203234,
-    "Availability": "",
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Dipen shah-",
+    "contact": 9825203234,
+    "quantity": "",
     "Item": "Oxygen bottels",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Dipak shah-",
-    "Number": 9925246679,
-    "Availability": "",
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Dipak shah-",
+    "contact": 9925246679,
+    "quantity": "",
     "Item": "Oxygen bottels",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Bhuyangdev area",
-    "Number": -9904018227,
-    "Availability": "",
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Bhuyangdev area",
+    "contact": -9904018227,
+    "quantity": "",
     "Item": "Oxygen bottels",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Sejal",
-    "Number": -9375784857,
-    "Availability": "",
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Sejal",
+    "contact": -9375784857,
+    "quantity": "",
     "Item": "Oxygen bottels",
-    "Comments": "(As of now she has 9ltrs available)"
+    "comments": "(As of now she has 9ltrs available)"
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "",
-    "Number": "whatsapp (7624093317",
-    "Availability": "",
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "",
+    "contact": "whatsapp (7624093317",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Dev",
-    "Number": 9722797222,
-    "Availability": "verified",
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Dev",
+    "contact": 9722797222,
+    "quantity": "verified",
     "Item": "oxygen bottles",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Ahmedabad",
-    "Contact": "Vardiani Tushar PAtel",
-    "Number": 982533320,
-    "Availability": "",
+    "state": "Gujrat",
+    "city": "Ahmedabad",
+    "vendor_name": "Vardiani Tushar PAtel",
+    "contact": 982533320,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "AHMEDABAD",
-    "Contact": "https://twitter.com/sobriqueted/status/1383113525850099715?s=20",
-    "Number": "",
-    "Availability": "",
+    "state": "Gujrat",
+    "city": "AHMEDABAD",
+    "vendor_name": "https://twitter.com/sobriqueted/status/1383113525850099715?s=20",
+    "contact": "",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "AHMEDABAD",
-    "Contact": "Dipak Patel Philips Respironics",
-    "Number": "+91-9979964364",
-    "Availability": "",
+    "state": "Gujrat",
+    "city": "AHMEDABAD",
+    "vendor_name": "Dipak Patel Philips Respironics",
+    "contact": "+91-9979964364",
+    "quantity": "",
     "Item": "For Oxygen machine and bypep machin on rent *",
-    "Comments": "Axis Meditek, 204, Addor Ambition, Besides Vimal House, Navrang Circle to Sardar Patel Stadium Road, Navrangpura, Ahmedabad - 380009 @mojilo_manas @AmitHPanchal"
+    "comments": "Axis Meditek, 204, Addor Ambition, Besides Vimal House, Navrang Circle to Sardar Patel Stadium Road, Navrangpura, Ahmedabad - 380009 @mojilo_manas @AmitHPanchal"
   },
   {
-    "State": "",
-    "City": "AHMEDABAD",
-    "Contact": "Grishma Soni",
-    "Number": "9081922002 text if busy",
-    "Availability": "",
+    "state": "",
+    "city": "AHMEDABAD",
+    "vendor_name": "Grishma Soni",
+    "contact": "9081922002 text if busy",
+    "quantity": "",
     "Item": "can help with oxygen. Might be difficult for today, but please register with her. She usually calls back everybody who registers requirements.",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Allahabad",
-    "Contact": "siddhant",
-    "Number": 8765044844,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Allahabad",
+    "vendor_name": "siddhant",
+    "contact": 8765044844,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "ambala",
-    "Contact": "philedelphia misson hospital",
-    "Number": "0171-2553518",
-    "Availability": "",
+    "state": "Haryana",
+    "city": "ambala",
+    "vendor_name": "philedelphia misson hospital",
+    "contact": "0171-2553518",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Karnatka",
-    "City": "Banglore",
-    "Contact": "",
-    "Number": 8899889952,
-    "Availability": "",
+    "state": "Karnatka",
+    "city": "Banglore",
+    "vendor_name": "",
+    "contact": 8899889952,
+    "quantity": "",
     "Item": "Ambulance",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "bhiwani",
-    "Contact": "kadam hospital",
-    "Number": 9518809328,
-    "Availability": "",
+    "state": "Haryana",
+    "city": "bhiwani",
+    "vendor_name": "kadam hospital",
+    "contact": 9518809328,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "MAdhya Pradesh",
-    "City": "Bhopal",
-    "Contact": "https://twitter.com/samarpitadotin/status/1383291126900137985/photo/1",
-    "Number": "",
-    "Availability": "",
+    "state": "MAdhya Pradesh",
+    "city": "Bhopal",
+    "vendor_name": "https://twitter.com/samarpitadotin/status/1383291126900137985/photo/1",
+    "contact": "",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Delhi",
-    "City": "Delhi",
-    "Contact": "IIT Voulanteer group",
-    "Number": 8899889952,
-    "Availability": "",
+    "state": "Delhi",
+    "city": "Delhi",
+    "vendor_name": "IIT Voulanteer group",
+    "contact": 8899889952,
+    "quantity": "",
     "Item": "Ambulance",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Delhi",
-    "City": "Delhi",
-    "Contact": "https://twitter.com/Hemkunt_Fdn",
-    "Number": "",
-    "Availability": "",
+    "state": "Delhi",
+    "city": "Delhi",
+    "vendor_name": "https://twitter.com/Hemkunt_Fdn",
+    "contact": "",
+    "quantity": "",
     "Item": "Oxygen",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Delhi",
-    "City": "Delhi",
-    "Contact": "@utsavbains",
-    "Number": "",
-    "Availability": "",
+    "state": "Delhi",
+    "city": "Delhi",
+    "vendor_name": "@utsavbains",
+    "contact": "",
+    "quantity": "",
     "Item": "oxcygen cylinder, Oxcygen concentrators dm him",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Delhi",
-    "City": "Delhi",
-    "Contact": "https://twitter.com/hukum2082/status/1383486900451700745",
-    "Number": "",
-    "Availability": "",
+    "state": "Delhi",
+    "city": "Delhi",
+    "vendor_name": "https://twitter.com/hukum2082/status/1383486900451700745",
+    "contact": "",
+    "quantity": "",
     "Item": "oxcygen cylinder, Oxcygen concentrators",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Delhi",
-    "City": "Delhi",
-    "Contact": "https://twitter.com/_aamir_87/status/1383628319489331201",
-    "Number": "",
-    "Availability": "",
+    "state": "Delhi",
+    "city": "Delhi",
+    "vendor_name": "https://twitter.com/_aamir_87/status/1383628319489331201",
+    "contact": "",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Delhi",
-    "City": "Delhi",
-    "Contact": "https://twitter.com/TheRightster/status/1383757296480575490",
-    "Number": "",
-    "Availability": "",
+    "state": "Delhi",
+    "city": "Delhi",
+    "vendor_name": "https://twitter.com/TheRightster/status/1383757296480575490",
+    "contact": "",
+    "quantity": "",
     "Item": "oxygen cylinders",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Delhi",
-    "City": "Delhi",
-    "Contact": "Near Jamia",
-    "Number": 9990431468,
-    "Availability": "yes",
+    "state": "Delhi",
+    "city": "Delhi",
+    "vendor_name": "Near Jamia",
+    "contact": 9990431468,
+    "quantity": "yes",
     "Item": "Oxygen cylinders are available",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Delhi",
-    "City": "Delhi",
-    "Contact": "Nitish",
-    "Number": 9911006015,
-    "Availability": "",
+    "state": "Delhi",
+    "city": "Delhi",
+    "vendor_name": "Nitish",
+    "contact": 9911006015,
+    "quantity": "",
     "Item": "",
-    "Comments": "Verified sources for oxygen cylinders in"
+    "comments": "Verified sources for oxygen cylinders in"
   },
   {
-    "State": "Delhi",
-    "City": "Delhi",
-    "Contact": "Rishipal",
-    "Number": "09350714001,",
-    "Availability": "",
+    "state": "Delhi",
+    "city": "Delhi",
+    "vendor_name": "Rishipal",
+    "contact": "09350714001,",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Delhi",
-    "City": "Delhi",
-    "Contact": "",
-    "Number": "",
-    "Availability": "",
+    "state": "Delhi",
+    "city": "Delhi",
+    "vendor_name": "",
+    "contact": "",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "",
-    "City": "Delhi",
-    "Contact": "Mr. Khan",
-    "Number": "at 09311188123",
-    "Availability": "",
+    "state": "",
+    "city": "Delhi",
+    "vendor_name": "Mr. Khan",
+    "contact": "at 09311188123",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Dombivali",
-    "Contact": "Dombivali",
-    "Number": 9930563063,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Dombivali",
+    "vendor_name": "Dombivali",
+    "contact": 9930563063,
+    "quantity": "",
     "Item": "Ocygen",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Haryana",
-    "City": "faridabad",
-    "Contact": "park hospital",
-    "Number": "0129-4200000",
-    "Availability": "",
+    "state": "Haryana",
+    "city": "faridabad",
+    "vendor_name": "park hospital",
+    "contact": "0129-4200000",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Ghatkopar east",
-    "Contact": "Simandhar Swami",
-    "Number": 9321580108,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Ghatkopar east",
+    "vendor_name": "Simandhar Swami",
+    "contact": 9321580108,
+    "quantity": "",
     "Item": "Ocygen",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Maharashtra",
-    "City": "Ghatkopar West",
-    "Contact": "Sanghani estate",
-    "Number": 9820008686,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Ghatkopar West",
+    "vendor_name": "Sanghani estate",
+    "contact": 9820008686,
+    "quantity": "",
     "Item": "Ocygen",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Maharashtra",
-    "City": "Ghatkopar West",
-    "Contact": "Cama Lane",
-    "Number": 9004512226,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Ghatkopar West",
+    "vendor_name": "Cama Lane",
+    "contact": 9004512226,
+    "quantity": "",
     "Item": "Ocygen",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Maharashtra",
-    "City": "Ghatkopar West",
-    "Contact": "Ghatkopar West",
-    "Number": "9821010210, 9768053832",
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Ghatkopar West",
+    "vendor_name": "Ghatkopar West",
+    "contact": "9821010210, 9768053832",
+    "quantity": "",
     "Item": "Ocygen",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Maharashtra",
-    "City": "Ghatkopar West",
-    "Contact": "Ghatkopar West",
-    "Number": 982190211,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Ghatkopar West",
+    "vendor_name": "Ghatkopar West",
+    "contact": 982190211,
+    "quantity": "",
     "Item": "Ocygen",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Maharashtra",
-    "City": "Ghatkopar West",
-    "Contact": "Ghatkopar West",
-    "Number": 9324555088,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Ghatkopar West",
+    "vendor_name": "Ghatkopar West",
+    "contact": 9324555088,
+    "quantity": "",
     "Item": "Ocygen",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Haryana",
-    "City": "Gurgaon",
-    "Contact": "kajal",
-    "Number": "95403 18835.",
-    "Availability": "",
+    "state": "Haryana",
+    "city": "Gurgaon",
+    "vendor_name": "kajal",
+    "contact": "95403 18835.",
+    "quantity": "",
     "Item": "oxygen",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "gurugram",
-    "Contact": "park hospital",
-    "Number": 18001026767,
-    "Availability": "",
+    "state": "Haryana",
+    "city": "gurugram",
+    "vendor_name": "park hospital",
+    "contact": 18001026767,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "gurugram",
-    "Contact": "esic hospital",
-    "Number": "0124-2252001",
-    "Availability": "",
+    "state": "Haryana",
+    "city": "gurugram",
+    "vendor_name": "esic hospital",
+    "contact": "0124-2252001",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Andhra pradesh",
-    "City": "Hyderabad",
-    "Contact": "Irshad #OxygenCylinder",
-    "Number": 9985925881,
-    "Availability": "out of stock",
+    "state": "Andhra pradesh",
+    "city": "Hyderabad",
+    "vendor_name": "Irshad #OxygenCylinder",
+    "contact": 9985925881,
+    "quantity": "out of stock",
     "Item": "he supplies nearby from Pista House Shalibanda",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Andhra pradesh",
-    "City": "Hyderabad",
-    "Contact": "Ayesh Enterprise",
-    "Number": "9346981890, 9985600000",
-    "Availability": "",
+    "state": "Andhra pradesh",
+    "city": "Hyderabad",
+    "vendor_name": "Ayesh Enterprise",
+    "contact": "9346981890, 9985600000",
+    "quantity": "",
     "Item": "Oxygen cylinders",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Andhra pradesh",
-    "City": "Hyderabad",
-    "Contact": "Sai@cssaiagarwal",
-    "Number": "",
-    "Availability": "",
+    "state": "Andhra pradesh",
+    "city": "Hyderabad",
+    "vendor_name": "Sai@cssaiagarwal",
+    "contact": "",
+    "quantity": "",
     "Item": "Anybody in need of Oxygen cylinders in Hyderabad can ping me. Will be glad to help. #COVIDSecondWave #Hyderabad #OxygenCylinder #OxygenShortage",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Andhra pradesh",
-    "City": "Hyderabad",
-    "Contact": "AB Aleem Oxygen",
-    "Number": "9642155497, 8977268957",
-    "Availability": "",
+    "state": "Andhra pradesh",
+    "city": "Hyderabad",
+    "vendor_name": "AB Aleem Oxygen",
+    "contact": "9642155497, 8977268957",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Andhra pradesh",
-    "City": "Hyderabad",
-    "Contact": "Akbar Oxygen",
-    "Number": 8019580003,
-    "Availability": "",
+    "state": "Andhra pradesh",
+    "city": "Hyderabad",
+    "vendor_name": "Akbar Oxygen",
+    "contact": 8019580003,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Andhra pradesh",
-    "City": "Hyderabad",
-    "Contact": "Ali Oxygen Jallapely",
-    "Number": 7799337286,
-    "Availability": "",
+    "state": "Andhra pradesh",
+    "city": "Hyderabad",
+    "vendor_name": "Ali Oxygen Jallapely",
+    "contact": 7799337286,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Andhra pradesh",
-    "City": "Hyderabad",
-    "Contact": "Asian Surgicals",
-    "Number": 8639790969,
-    "Availability": "",
+    "state": "Andhra pradesh",
+    "city": "Hyderabad",
+    "vendor_name": "Asian Surgicals",
+    "contact": 8639790969,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Andhra pradesh",
-    "City": "Hyderabad",
-    "Contact": "Ayesha Oxygen",
-    "Number": 9985636501,
-    "Availability": "",
+    "state": "Andhra pradesh",
+    "city": "Hyderabad",
+    "vendor_name": "Ayesha Oxygen",
+    "contact": 9985636501,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Andhra pradesh",
-    "City": "Hyderabad",
-    "Contact": "Baba oxygen",
-    "Number": "9396589260, 7673929606, 789393269, 8639042247",
-    "Availability": "",
+    "state": "Andhra pradesh",
+    "city": "Hyderabad",
+    "vendor_name": "Baba oxygen",
+    "contact": "9396589260, 7673929606, 789393269, 8639042247",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Janmangar",
-    "Contact": "JAMNAGAR",
-    "Number": 9998001581,
-    "Availability": "",
+    "state": "Gujrat",
+    "city": "Janmangar",
+    "vendor_name": "JAMNAGAR",
+    "contact": 9998001581,
+    "quantity": "",
     "Item": "",
-    "Comments": ", they can refill OXYGEN if you have cylinders."
+    "comments": ", they can refill OXYGEN if you have cylinders."
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Kanpur",
-    "Contact": "शक्ति मेडिकल स्टोर, स्वरुप नगर, कानपुर के श्री संजय मेहरोत्रा",
-    "Number": "9839 114889",
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Kanpur",
+    "vendor_name": "शक्ति मेडिकल स्टोर, स्वरुप नगर, कानपुर के श्री संजय मेहरोत्रा",
+    "contact": "9839 114889",
+    "quantity": "",
     "Item": "Oxygen Cylinder, Oxygen Concentrator, CIPAP Machine व कोई जीवन रक्षक दवाओं",
-    "Comments": "स्वरुप नगर, कानपुर"
+    "comments": "स्वरुप नगर, कानपुर"
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Kanpur",
-    "Contact": "Murari Gas Service",
-    "Number": 9621895401,
-    "Availability": "yes",
+    "state": "Uttar Pradesh",
+    "city": "Kanpur",
+    "vendor_name": "Murari Gas Service",
+    "contact": 9621895401,
+    "quantity": "yes",
     "Item": "Oxygen cylinder",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Kanpur",
-    "Contact": "Umang Gupta",
-    "Number": "7985121201, 7860143575",
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Kanpur",
+    "vendor_name": "Umang Gupta",
+    "contact": "7985121201, 7860143575",
+    "quantity": "",
     "Item": "Oxygen Refil",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Kanpur",
-    "Contact": "Medicine Spot",
-    "Number": 7860100001,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Kanpur",
+    "vendor_name": "Medicine Spot",
+    "contact": 7860100001,
+    "quantity": "",
     "Item": "Oxygen Refil",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Kanpur",
-    "Contact": "Lovely GAs Company",
-    "Number": 9889629140,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Kanpur",
+    "vendor_name": "Lovely GAs Company",
+    "contact": 9889629140,
+    "quantity": "",
     "Item": "Oxygen Refil",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Kanpur",
-    "Contact": "BAba Oxygen",
-    "Number": 9140301978,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Kanpur",
+    "vendor_name": "BAba Oxygen",
+    "contact": 9140301978,
+    "quantity": "",
     "Item": "Oxygen Refil",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Lokhandwala",
-    "Contact": "Jogeswari",
-    "Number": 8108001855,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Lokhandwala",
+    "vendor_name": "Jogeswari",
+    "contact": 8108001855,
+    "quantity": "",
     "Item": "Ocygen",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Oxygen",
-    "Number": "",
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Oxygen",
+    "contact": "",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Oxygen",
-    "Number": "",
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Oxygen",
+    "contact": "",
+    "quantity": "",
     "Item": "",
-    "Comments": "https://twitter.com/Chatterj1Asking/status/1382861385466474501"
+    "comments": "https://twitter.com/Chatterj1Asking/status/1382861385466474501"
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Shubham Oxygen",
-    "Number": 9415548499,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Shubham Oxygen",
+    "contact": 9415548499,
+    "quantity": "",
     "Item": "Oxcygen",
-    "Comments": "For Refilling/Rent"
+    "comments": "For Refilling/Rent"
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Vent on Rent",
-    "Number": 7080806920,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Vent on Rent",
+    "contact": 7080806920,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Raghav Oudh Oxygen",
-    "Number": 9616661656,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Raghav Oudh Oxygen",
+    "contact": 9616661656,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Awadh Gas - Lucknow",
-    "Number": -9335710295,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Awadh Gas - Lucknow",
+    "contact": -9335710295,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Air 6 Portable Oxygen Can",
-    "Number": 8090390300,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Air 6 Portable Oxygen Can",
+    "contact": 8090390300,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "RSS Jankalyan Samiti",
-    "Number": "whatsapp details on 9967897850",
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "RSS Jankalyan Samiti",
+    "contact": "whatsapp details on 9967897850",
+    "quantity": "",
     "Item": "Oxygen Concentrator",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Alok",
-    "Number": 7408290732,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Alok",
+    "contact": 7408290732,
+    "quantity": "",
     "Item": "",
-    "Comments": "For Purchasing"
+    "comments": "For Purchasing"
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Sandeep",
-    "Number": 8115171287,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Sandeep",
+    "contact": 8115171287,
+    "quantity": "",
     "Item": "",
-    "Comments": "For Purchasing"
+    "comments": "For Purchasing"
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Prateek",
-    "Number": 9140131407,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Prateek",
+    "contact": 9140131407,
+    "quantity": "",
     "Item": "",
-    "Comments": "For Purchasing"
+    "comments": "For Purchasing"
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Akshay",
-    "Number": 9899509939,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Akshay",
+    "contact": 9899509939,
+    "quantity": "",
     "Item": "",
-    "Comments": "For Purchasing"
+    "comments": "For Purchasing"
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Kaushal Katiyar",
-    "Number": 9919192260,
-    "Availability": "Alambagh",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Kaushal Katiyar",
+    "contact": 9919192260,
+    "quantity": "Alambagh",
     "Item": "",
-    "Comments": "For Purchasing"
+    "comments": "For Purchasing"
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Manoj Gas",
-    "Number": 9935580628,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Manoj Gas",
+    "contact": 9935580628,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Vasu",
-    "Number": 9044430691,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Vasu",
+    "contact": 9044430691,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Tanmay Bansal",
-    "Number": 7081777781,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Tanmay Bansal",
+    "contact": 7081777781,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Cylinders",
-    "Number": 8182820655,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Cylinders",
+    "contact": 8182820655,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Sai Traders",
-    "Number": 9304084300,
-    "Availability": "Aliganj",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Sai Traders",
+    "contact": 9304084300,
+    "quantity": "Aliganj",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Ansh Arora",
-    "Number": 7054414141,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Ansh Arora",
+    "contact": 7054414141,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Matrix Health Care",
-    "Number": 9793045444,
-    "Availability": "Raebareli Road",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Matrix Health Care",
+    "contact": 9793045444,
+    "quantity": "Raebareli Road",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Javed",
-    "Number": 8127411951,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Javed",
+    "contact": 8127411951,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Emergency Supply Only",
-    "Number": 7081777781,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Emergency Supply Only",
+    "contact": 7081777781,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Pratham Enterprises",
-    "Number": 7235807158,
-    "Availability": "Nishatganj",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Pratham Enterprises",
+    "contact": 7235807158,
+    "quantity": "Nishatganj",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Ravi",
-    "Number": 8318820465,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Ravi",
+    "contact": 8318820465,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Modi Gas Awasthi",
-    "Number": 7317054584,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Modi Gas Awasthi",
+    "contact": 7317054584,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Jumbo Jet Oxygen",
-    "Number": 8960155550,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Jumbo Jet Oxygen",
+    "contact": 8960155550,
+    "quantity": "",
     "Item": "",
-    "Comments": "Pre Booking Required"
+    "comments": "Pre Booking Required"
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Bhupendra",
-    "Number": 7844038913,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Bhupendra",
+    "contact": 7844038913,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Sahil Bharadwaj",
-    "Number": 8182820655,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Sahil Bharadwaj",
+    "contact": 8182820655,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Lucknow",
-    "Contact": "Oxygen",
-    "Number": 8950155550,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "vendor_name": "Oxygen",
+    "contact": 8950155550,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Malabar Hill",
-    "Contact": "Malabar Hill",
-    "Number": 9167030530,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Malabar Hill",
+    "vendor_name": "Malabar Hill",
+    "contact": 9167030530,
+    "quantity": "",
     "Item": "",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Maharashtra",
-    "City": "Mulund East",
-    "Contact": "Mulund East",
-    "Number": "9769139213, 9820039469, 9324016270",
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Mulund East",
+    "vendor_name": "Mulund East",
+    "contact": "9769139213, 9820039469, 9324016270",
+    "quantity": "",
     "Item": "",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Maharashra",
-    "City": "Mumbai",
-    "Contact": "",
-    "Number": 8899889952,
-    "Availability": "",
+    "state": "Maharashra",
+    "city": "Mumbai",
+    "vendor_name": "",
+    "contact": 8899889952,
+    "quantity": "",
     "Item": "Ambulance",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Mumbai",
-    "Contact": "Padmashree Hospital",
-    "Number": "+91 99305 63063",
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "vendor_name": "Padmashree Hospital",
+    "contact": "+91 99305 63063",
+    "quantity": "",
     "Item": "Free Oxygen Service]",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Mumbai",
-    "Contact": "Oxygen",
-    "Number": "",
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "vendor_name": "Oxygen",
+    "contact": "",
+    "quantity": "",
     "Item": "",
-    "Comments": "https://twitter.com/Impres78/status/1382978251878899718/photo/1"
+    "comments": "https://twitter.com/Impres78/status/1382978251878899718/photo/1"
   },
   {
-    "State": "Maharashtra",
-    "City": "Mumbai",
-    "Contact": "Oxygen",
-    "Number": "",
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "vendor_name": "Oxygen",
+    "contact": "",
+    "quantity": "",
     "Item": "",
-    "Comments": "https://twitter.com/dakuwithchaku/status/1382979166681792512"
+    "comments": "https://twitter.com/dakuwithchaku/status/1382979166681792512"
   },
   {
-    "State": "Maharashtra",
-    "City": "Mumbai",
-    "Contact": "Rajesh Pillai",
-    "Number": "(+917822989954)",
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "vendor_name": "Rajesh Pillai",
+    "contact": "(+917822989954)",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Mumbai",
-    "Contact": "Lohar Chawl",
-    "Number": 9820132853,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "vendor_name": "Lohar Chawl",
+    "contact": 9820132853,
+    "quantity": "",
     "Item": "",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Maharashtra",
-    "City": "Mumbai",
-    "Contact": "nilesh bhai",
-    "Number": "(+91 9769461268)",
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "vendor_name": "nilesh bhai",
+    "contact": "(+91 9769461268)",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Nagpur",
-    "Contact": "Sourabh",
-    "Number": 9028492098,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Nagpur",
+    "vendor_name": "Sourabh",
+    "contact": 9028492098,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Nagpur",
-    "Contact": "Ninad",
-    "Number": 9823039389,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Nagpur",
+    "vendor_name": "Ninad",
+    "contact": 9823039389,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Nagpur",
-    "Contact": "Ravindra",
-    "Number": 9371850278,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Nagpur",
+    "vendor_name": "Ravindra",
+    "contact": 9371850278,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Nagpur",
-    "Contact": "Sunil",
-    "Number": 9422106522,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Nagpur",
+    "vendor_name": "Sunil",
+    "contact": 9422106522,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Nagpur",
-    "Contact": "naresh",
-    "Number": 9372723733,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Nagpur",
+    "vendor_name": "naresh",
+    "contact": 9372723733,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Nagpur",
-    "Contact": "prithivi",
-    "Number": 9511251738,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Nagpur",
+    "vendor_name": "prithivi",
+    "contact": 9511251738,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Nashik",
-    "Contact": "GOVt Corona Helpline",
-    "Number": "For Bed 9607623366,",
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Nashik",
+    "vendor_name": "GOVt Corona Helpline",
+    "contact": "For Bed 9607623366,",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Nasik",
-    "Contact": "covidcbrs.nmc.gov.in/home/hospitalS…",
-    "Number": "FOR OXYGEN / VENTILATOR / NORMAL BED STATUS",
-    "Availability": "Haven't checked",
+    "state": "Maharashtra",
+    "city": "Nasik",
+    "vendor_name": "covidcbrs.nmc.gov.in/home/hospitalS…",
+    "contact": "FOR OXYGEN / VENTILATOR / NORMAL BED STATUS",
+    "quantity": "Haven't checked",
     "Item": "",
-    "Comments": "https://twitter.com/WeAreNashik/status/1381579274193276930"
+    "comments": "https://twitter.com/WeAreNashik/status/1381579274193276930"
   },
   {
-    "State": "Haryana",
-    "City": "palwal",
-    "Contact": "gurunanak hospital",
-    "Number": "075031 02102",
-    "Availability": "",
+    "state": "Haryana",
+    "city": "palwal",
+    "vendor_name": "gurunanak hospital",
+    "contact": "075031 02102",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "panchkula",
-    "Contact": "civil hospital",
-    "Number": "0172 256 7228",
-    "Availability": "https://panchkula.nic.in/public-utility/general-hospital/",
+    "state": "Haryana",
+    "city": "panchkula",
+    "vendor_name": "civil hospital",
+    "contact": "0172 256 7228",
+    "quantity": "https://panchkula.nic.in/public-utility/general-hospital/",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "panchkula",
-    "Contact": "paras hospital",
-    "Number": "0172 529 4444",
-    "Availability": "https://www.parashospitals.com/india/paras-hospitals-panchkula/",
+    "state": "Haryana",
+    "city": "panchkula",
+    "vendor_name": "paras hospital",
+    "contact": "0172 529 4444",
+    "quantity": "https://www.parashospitals.com/india/paras-hospitals-panchkula/",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "@yogitabhayana",
-    "Number": "",
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "@yogitabhayana",
+    "contact": "",
+    "quantity": "",
     "Item": "ambulance/Oxcygen cylinder/bed",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Vishwanath",
-    "Number": 995599981,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Vishwanath",
+    "contact": 995599981,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Marwari sammelan",
-    "Number": 933446039,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Marwari sammelan",
+    "contact": 933446039,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "SP verma medical",
-    "Number": 9534771419,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "SP verma medical",
+    "contact": 9534771419,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Gaurav Sinha",
-    "Number": 9308409095,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Gaurav Sinha",
+    "contact": 9308409095,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Dr. Saki",
-    "Number": 7679758811,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Dr. Saki",
+    "contact": 7679758811,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Fehad",
-    "Number": 9334101941,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Fehad",
+    "contact": 9334101941,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Atif",
-    "Number": 6204867980,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Atif",
+    "contact": 6204867980,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Gangotri",
-    "Number": 9608791349,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Gangotri",
+    "contact": 9608791349,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Ajay Tiwari",
-    "Number": 7257804224,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Ajay Tiwari",
+    "contact": 7257804224,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Rohit Ranjan",
-    "Number": 9015780787,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Rohit Ranjan",
+    "contact": 9015780787,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "T N Singh",
-    "Number": 9934716122,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "T N Singh",
+    "contact": 9934716122,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Santosh Mishra",
-    "Number": 9835287776,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Santosh Mishra",
+    "contact": 9835287776,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Vidya Jee",
-    "Number": 9835420734,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Vidya Jee",
+    "contact": 9835420734,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Sanjay Sarkar",
-    "Number": 8809989999,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Sanjay Sarkar",
+    "contact": 8809989999,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Amresh",
-    "Number": 8797348700,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Amresh",
+    "contact": 8797348700,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Bihar",
-    "City": "Patna",
-    "Contact": "Ramesh Mahajan",
-    "Number": 9334486903,
-    "Availability": "",
+    "state": "Bihar",
+    "city": "Patna",
+    "vendor_name": "Ramesh Mahajan",
+    "contact": 9334486903,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Prayagrag",
-    "Contact": "Civil Lines",
-    "Number": "- 7947439572,",
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Prayagrag",
+    "vendor_name": "Civil Lines",
+    "contact": "- 7947439572,",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Prayagrag",
-    "Contact": "• Near PVR",
-    "Number": "-82,997,079,619,453,900,000",
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Prayagrag",
+    "vendor_name": "• Near PVR",
+    "contact": "-82,997,079,619,453,900,000",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Prayagrag",
-    "Contact": "• Phaphamau -",
-    "Number": "96,953,433,889,451,000,000",
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Prayagrag",
+    "vendor_name": "• Phaphamau -",
+    "contact": "96,953,433,889,451,000,000",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Prayagrag",
-    "Contact": "• Tilak Nagar",
-    "Number": -794718769,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Prayagrag",
+    "vendor_name": "• Tilak Nagar",
+    "contact": -794718769,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashra",
-    "City": "pune",
-    "Contact": "",
-    "Number": 8899889952,
-    "Availability": "",
+    "state": "Maharashra",
+    "city": "pune",
+    "vendor_name": "",
+    "contact": 8899889952,
+    "quantity": "",
     "Item": "Ambulance",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Chattisgarh",
-    "City": "Raipur",
-    "Contact": "https://www.instagram.com/p/CNmjc6llDFM/?igshid=wo71eo1u16xr",
-    "Number": "",
-    "Availability": "",
+    "state": "Chattisgarh",
+    "city": "Raipur",
+    "vendor_name": "https://www.instagram.com/p/CNmjc6llDFM/?igshid=wo71eo1u16xr",
+    "contact": "",
+    "quantity": "",
     "Item": "Organisation providing Oxygen Machine :",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Gujrat",
-    "City": "Rajkot",
-    "Contact": "Jayditya gas agency",
-    "Number": 9104811112,
-    "Availability": "",
+    "state": "Gujrat",
+    "city": "Rajkot",
+    "vendor_name": "Jayditya gas agency",
+    "contact": 9104811112,
+    "quantity": "",
     "Item": "Oxygen refill",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "rewari",
-    "Contact": "puspanjli hospital",
-    "Number": "01274 260 021",
-    "Availability": "",
+    "state": "Haryana",
+    "city": "rewari",
+    "vendor_name": "puspanjli hospital",
+    "contact": "01274 260 021",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "rohtak",
-    "Contact": "civil hospital",
-    "Number": "01262-247657",
-    "Availability": "https://rohtak.gov.in/public-utility/civil-hospital/",
+    "state": "Haryana",
+    "city": "rohtak",
+    "vendor_name": "civil hospital",
+    "contact": "01262-247657",
+    "quantity": "https://rohtak.gov.in/public-utility/civil-hospital/",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "rohtak",
-    "Contact": "kainos hospital",
-    "Number": 9369020202,
-    "Availability": "",
+    "state": "Haryana",
+    "city": "rohtak",
+    "vendor_name": "kainos hospital",
+    "contact": 9369020202,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "rohtak",
-    "Contact": "pgims",
-    "Number": "01262 281 307",
-    "Availability": "",
+    "state": "Haryana",
+    "city": "rohtak",
+    "vendor_name": "pgims",
+    "contact": "01262 281 307",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "sirsa",
-    "Contact": "sanjeevani hospital",
-    "Number": "0166 622 2221",
-    "Availability": "",
+    "state": "Haryana",
+    "city": "sirsa",
+    "vendor_name": "sanjeevani hospital",
+    "contact": "0166 622 2221",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "sirsa",
-    "Contact": "shah satnam dera hospital",
-    "Number": "01666-260222",
-    "Availability": "http://www.ssjsh.com/",
+    "state": "Haryana",
+    "city": "sirsa",
+    "vendor_name": "shah satnam dera hospital",
+    "contact": "01666-260222",
+    "quantity": "http://www.ssjsh.com/",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "sonipat",
-    "Contact": "dayanand hospital",
-    "Number": "094675 75442",
-    "Availability": "",
+    "state": "Haryana",
+    "city": "sonipat",
+    "vendor_name": "dayanand hospital",
+    "contact": "094675 75442",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Rajasthan",
-    "City": "Sriganganaga",
-    "Contact": "Rajender Singh@Rajenderpahl",
-    "Number": 7231900022,
-    "Availability": "",
+    "state": "Rajasthan",
+    "city": "Sriganganaga",
+    "vendor_name": "Rajender Singh@Rajenderpahl",
+    "contact": 7231900022,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Thane",
-    "Contact": "Rajesh Pillai",
-    "Number": "(+917822989954)",
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Thane",
+    "vendor_name": "Rajesh Pillai",
+    "contact": "(+917822989954)",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "Thane",
-    "Contact": "thane",
-    "Number": 9821070775,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Thane",
+    "vendor_name": "thane",
+    "contact": 9821070775,
+    "quantity": "",
     "Item": "",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Varanasi",
-    "Contact": "Ganesh Oxygen",
-    "Number": 9838770372,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Varanasi",
+    "vendor_name": "Ganesh Oxygen",
+    "contact": 9838770372,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Varanasi",
-    "Contact": "Ramnagar industrial",
-    "Number": 7992249149,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Varanasi",
+    "vendor_name": "Ramnagar industrial",
+    "contact": 7992249149,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Varanasi",
-    "Contact": "Sanrai med",
-    "Number": 7600027303,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Varanasi",
+    "vendor_name": "Sanrai med",
+    "contact": 7600027303,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Varanasi",
-    "Contact": "Jyoti industries",
-    "Number": 7355775344,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Varanasi",
+    "vendor_name": "Jyoti industries",
+    "contact": 7355775344,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Varanasi",
-    "Contact": "vijay brothers",
-    "Number": 9935530688,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Varanasi",
+    "vendor_name": "vijay brothers",
+    "contact": 9935530688,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Varanasi",
-    "Contact": "kesharwani",
-    "Number": 9919893022,
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Varanasi",
+    "vendor_name": "kesharwani",
+    "contact": 9919893022,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Uttar Pradesh",
-    "City": "Varanasi",
-    "Contact": "https://twitter.com/banarasiadda/status/1383359318498500612",
-    "Number": "",
-    "Availability": "",
+    "state": "Uttar Pradesh",
+    "city": "Varanasi",
+    "vendor_name": "https://twitter.com/banarasiadda/status/1383359318498500612",
+    "contact": "",
+    "quantity": "",
     "Item": "for other information",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Maharashtra",
-    "City": "versova",
-    "Contact": "4 banglow",
-    "Number": 9594837086,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "versova",
+    "vendor_name": "4 banglow",
+    "contact": 9594837086,
+    "quantity": "",
     "Item": "",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Maharashtra",
-    "City": "Walkeshwar",
-    "Contact": "Samrat Ashok",
-    "Number": 7977239969,
-    "Availability": "",
+    "state": "Maharashtra",
+    "city": "Walkeshwar",
+    "vendor_name": "Samrat Ashok",
+    "contact": 7977239969,
+    "quantity": "",
     "Item": "",
-    "Comments": "Veer Foundation"
+    "comments": "Veer Foundation"
   },
   {
-    "State": "Haryana",
-    "City": "yamunanagar",
-    "Contact": "santosh hospital",
-    "Number": 9416158466,
-    "Availability": "",
+    "state": "Haryana",
+    "city": "yamunanagar",
+    "vendor_name": "santosh hospital",
+    "contact": 9416158466,
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "Haryana",
-    "City": "yamunanagar",
-    "Contact": "gaba hospital",
-    "Number": "01732 222 194",
-    "Availability": "",
+    "state": "Haryana",
+    "city": "yamunanagar",
+    "vendor_name": "gaba hospital",
+    "contact": "01732 222 194",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "",
-    "City": "Mumbai",
-    "Contact": "ABHISHEK",
-    "Number": -9594924483,
-    "Availability": "verified",
+    "state": "",
+    "city": "Mumbai",
+    "vendor_name": "ABHISHEK",
+    "contact": -9594924483,
+    "quantity": "verified",
     "Item": "Rents out oxygen concentrator. Shop is near Goregaon station.",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "",
-    "City": "Mumbai",
-    "Contact": "JAYDEEP",
-    "Number": -9820872654,
-    "Availability": "verified",
+    "state": "",
+    "city": "Mumbai",
+    "vendor_name": "JAYDEEP",
+    "contact": -9820872654,
+    "quantity": "verified",
     "Item": "Rents out oxygen concentrator. Shop is near Goregaon station.",
-    "Comments": ""
+    "comments": ""
   },
   {
-    "State": "",
-    "City": "Delhi",
-    "Contact": "Shahid Malik Delhi,",
-    "Number": "91 98109 15637",
-    "Availability": "",
+    "state": "",
+    "city": "Delhi",
+    "vendor_name": "Shahid Malik Delhi,",
+    "contact": "91 98109 15637",
+    "quantity": "",
     "Item": "",
-    "Comments": ""
+    "comments": ""
   }
 ]

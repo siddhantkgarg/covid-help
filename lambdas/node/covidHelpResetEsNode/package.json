@@ -1,0 +1,14 @@
+{
+  "name": "covidhelpinitesnode",
+  "version": "1.0.0",
+  "description": "A lambda function to create index in Elasticsearch for the first time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Varun Kumar <varunon9@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^16.7.2"
+  }
+}

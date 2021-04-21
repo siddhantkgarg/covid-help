@@ -7,8 +7,9 @@ const apiUrl = 'https://4tomrkuta3.execute-api.ap-south-1.amazonaws.com/dev/?ind
 const fillData = async () => {
   for (let i = 0; i < medicines.length; i++) {
     const medicine = medicines[i];
+    medicine.contact = `${medicine.contact}`;
     medicine.price = '';
-    medicine.createdAt = new Date().toISOString();
+    medicine.created_at = new Date().toISOString();
     medicine.last_updated = new Date().toISOString();
     try {
       const response = await axios.post(apiUrl, {
