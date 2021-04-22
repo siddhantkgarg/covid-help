@@ -3,6 +3,7 @@ $(document).ready(function() {
   $.fn.dataTable.ext.errMode = 'none';
   try {
     $('#hospitalBedsTable').DataTable({
+      "sPaginationType":"simple",
       responsive:true,
       ajax: {
         url: 'https://4tomrkuta3.execute-api.ap-south-1.amazonaws.com/dev/?index=hospital_beds',
@@ -54,6 +55,7 @@ $(document).ready(function() {
 
   try {
     $('#medicinesTable').DataTable({
+      "sPaginationType":"simple",
       responsive:true,
       ajax: {
         url: 'https://4tomrkuta3.execute-api.ap-south-1.amazonaws.com/dev/?index=medicines',
@@ -111,6 +113,7 @@ $(document).ready(function() {
 
   try {
     $('#oxygenTable').DataTable({
+      "sPaginationType":"simple",
       responsive:true,
       ajax: {
         url: 'https://4tomrkuta3.execute-api.ap-south-1.amazonaws.com/dev/?index=oxygen',
@@ -173,6 +176,8 @@ $(document).ready(function() {
        .columns.adjust()
        .responsive.recalc();
   }); 
+
+
 
   //forms submit handler
   function apiRequest(index, data){
@@ -295,6 +300,26 @@ $(document).ready(function() {
   $.each(states, function(k,v){
     $("#states").append(`<option value=${v}></option>`)
   })
+
+  //disabling form submission on enter
+  $('#state').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+  $('#medicines').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+  $('#oxygen').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
   
 });
 
