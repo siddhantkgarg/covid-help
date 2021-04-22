@@ -3,6 +3,7 @@ $(document).ready(function() {
   $.fn.dataTable.ext.errMode = 'none';
   try {
     $('#hospitalBedsTable').DataTable({
+      responsive:true,
       ajax: {
         url: 'https://4tomrkuta3.execute-api.ap-south-1.amazonaws.com/dev/?index=hospital_beds',
         dataSrc: '',
@@ -53,6 +54,7 @@ $(document).ready(function() {
 
   try {
     $('#medicinesTable').DataTable({
+      responsive:true,
       ajax: {
         url: 'https://4tomrkuta3.execute-api.ap-south-1.amazonaws.com/dev/?index=medicines',
         dataSrc: '',
@@ -109,6 +111,7 @@ $(document).ready(function() {
 
   try {
     $('#oxygenTable').DataTable({
+      responsive:true,
       ajax: {
         url: 'https://4tomrkuta3.execute-api.ap-south-1.amazonaws.com/dev/?index=oxygen',
         dataSrc: '',
@@ -162,6 +165,14 @@ $(document).ready(function() {
   } catch (error) {
     console.error(error);
   }
+
+  //responsive on tab change
+  $('a[data-toggle="pill"]').on('shown.bs.tab', function (e) {
+    // console.log('yua')
+    $($.fn.dataTable.tables(true)).DataTable()
+       .columns.adjust()
+       .responsive.recalc();
+  }); 
 
   //forms submit handler
   function apiRequest(index, data){
