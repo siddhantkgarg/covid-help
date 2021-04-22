@@ -60,14 +60,17 @@
   </head>
   <body>
     <header class="p16">
-        <nav class="navbar navbar-light" style="background-color: #753535;">
-          <h2 class="ui header" style="color:white; font-family:lato"><i class="material-icons">groups</i> covHelp</h2>
-        </nav>
-        <hr/>
+      <nav class="navbar navbar-light" style=" margin-bottom:15px">
+        <h5 class="ui header">🤝 COVHELP</h5>
+      </nav>
+
+      <div class="jumbotron">
+        <H3 class="text-center">Add details about</H3>
+        <p class="text-center">&#127973; hospitals, &#128138; medicines, 🛢oxygen cylinders </p>
+      </div>
     </header>
     <div class="container">
-      <div class="row">
-        <div class="col-sm">
+      <div class="row justify-content-sm-center">
           <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
               <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-hospital-beds" role="tab" aria-controls="pills-hospital-beds" aria-selected="true">Hospital Beds</a>
@@ -79,10 +82,15 @@
               <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-medicines" role="tab" aria-controls="pills-medicines" aria-selected="false">Medicines</a>
             </li>
           </ul>
+        </div>
+      </div>
+
           <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-hospital-beds" role="tabpanel" aria-labelledby="pills-hospital-beds-tab">
               <!--Hospital beds submit form-->
-              <form class="col-md-4" id="hospitalBeds" action="">
+              <div class="container">
+              <div class="row justify-content-sm-center">
+              <form class="col-md-6" id="hospitalBeds" action="">
                 <div class="form-group">
                   <label for="hospital_name">Hospital Name</label>
                   <input type="text" name="hospital_name" class="form-control" id="hospital_name" aria-describedby="hospital_name">
@@ -117,9 +125,13 @@
                 <div id="bed-alert"></div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
+              </div>
+              </div>
             </div>
             <div class="tab-pane fade" id="pills-oxygen" role="tabpanel" aria-labelledby="pills-oxygen-tab">
-              <form class="col-md-4" id="oxygen">
+              <div class="container">
+              <div class="row justify-content-sm-center">
+              <form class="col-md-6" id="oxygen">
                 <div class="form-group">
                   <label for="vendor_name">Vendor Name</label>
                   <input type="text" class="form-control" id="vendor_name" aria-describedby="vendor_name">
@@ -162,9 +174,13 @@
                 <div id="oxygen-alert"></div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
+              </div>
+              </div>
             </div>
             <div class="tab-pane fade" id="pills-medicines" role="tabpanel" aria-labelledby="pills-medicines-tab">
-              <form class="col-md-4" id="medicines">
+              <div class="container">
+              <div class="row justify-content-sm-center">
+              <form class="col-md-6" id="medicines">
                 <div class="form-group">
                   <label for="person_name">Person Name</label>
                   <input type="text" class="form-control" id="person_name" aria-describedby="person_name">
@@ -207,8 +223,11 @@
                 <div id="med-alert"></div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
+              </div>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
