@@ -13,7 +13,7 @@ def lambda_handler(event, context):
         event['body'] = json.loads(event['body'])
         doc = event['body']['data']
         if 'id' in event['body']['data'] and event['body']['data']['id']:
-            if event['body']['token'] == 'replace_dummy_token':
+            if 'token' in event['body'] and event['body']['token'] == 'replace_dummy_token':
                 if event['httpMethod'] == 'DELETE':
                     res = es.delete(index=index, id=event['body']['data']['id'])
                 else:
@@ -48,4 +48,11 @@ def lambda_handler(event, context):
             }
     except Exception as e:
         print(e)
-        return "Error in upsert: {}".format(e)
+        return {
+            "statusCode": 500,
+            "headers": {
+                "Access-Control-Allow-Origin" : "*", # Required for CORS support to work
+                "Access-Control-Allow-Credentials" : True # Required for cookies, authorization headers with HTTPS 
+            },
+            "body": json.dumps({"error": "Error in Upsert- {}".format(e)})
+        }
